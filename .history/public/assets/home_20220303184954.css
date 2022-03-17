@@ -1,0 +1,45 @@
+
+.banner .owl-carousel{width:100%}
+.banner .owl-carousel .owl-item{padding:0}
+.banner .owl-carousel .owl-item .item{position:relative}
+.banner .owl-carousel .owl-item .item .data{position:absolute; width:100%; text-align:center; top:20%}
+.banner .owl-carousel .owl-item .item .data h1{color:#fff; text-transform:uppercase; font-size:40px; margin:0}
+.banner .owl-carousel .owl-item .item .data h4{color:#fff;  font-size:20px;margin:0}
+.banner .owl-carousel .owl-item .item .data p{color:#fff;  font-size:16px;width:50%; font-weight:300; margin:20px auto}
+.banner .owl-carousel .owl-pagination{position:absolute; z-index:99; bottom:10px; width:100%; text-align:center}
+.banner .owl-carousel .owl-pagination .owl-page{display:inline-block; }
+.banner .owl-carousel .owl-pagination .owl-page span{ width:18px; height:18px; background:#fff}
+
+.clients{background:#f7f7f7; padding:10px 0; }
+.services{padding:3% 0;text-align:center;}
+.services h1{font-size:45px;}
+.services .data{padding:0px 10% 40px 10%}
+.services .services-boxes{padding:3% 0;}
+.services .services-boxes i{font-size:80px;}
+.services .services-boxes p{padding:0 12%;}
+
+.section-twin-blue{}
+.section-twin-blue:hover{background:#2e7edf}
+.section-twin-blue .left{background:url(../images/1_37.jpg) center;width:50%; min-height:350px; float:left}
+.section-twin-blue .right{float:right;width:50%; text-align:center; padding:2% 5% 3% 5%; }
+.section-twin-blue .right h1{color:#fff; }
+.section-twin-blue .right p{color:#fff; font-weight:300; font-size:15px;}
+
+.section-twin-green{background:#00b1ac}
+.section-twin-green:hover{background:#19beb9}
+.section-twin-green .right{float:left;width:50%; position:relative}
+.section-twin-green .right .data{position:absolute; text-align:center; width:100%; top:72px;}
+.section-twin-green .right .data h2{color:#fff}
+.section-twin-green .right .data p{color:#fff}
+.section-twin-green .left{float:left;width:50%; text-align:left; padding:4% 4% 3% 4%; }
+.section-twin-green .left h1{color:#fff; }
+.section-twin-green .left ul{color:#fff; font-weight:300; list-style:none; margin:0; padding:0;}
+.section-twin-green .left ul li{padding:5px 0; font-size:15px;}
+
+.home-summery{padding:6% 0}
+.home-summery .item .data{background:#eaf1f9; text-align:center; padding:25px 15px; min-height:198px; margin-bottom:30px;}
+.home-summery .item .data h2{margin:0 0 8px 0;}
+.home-summery .item .data p{margin:8px 0 20px 0; color:#646464}
+.home-summery .item .data .btn{padding:7px 10px}
+
+#infinite-bg{background:url(../images/1_51.jpg); min-height:350px;}

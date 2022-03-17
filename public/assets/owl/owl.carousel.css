@@ -1,0 +1,148 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 99%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	padding: 0px 0px;
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+	margin:0px ;
+	padding:0px 15px ;
+}
+
+#owl-demo3 .owl-item{padding:0px ;}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 15px 10px;
+}
+ 
+ 
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  position: relative;
+}
+
+
+
+ 
+
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+	height: 22px;
+	width: 31px;
+	background: url(../../images/arw-prv.html) center top no-repeat ; background-position:9px;
+	position:absolute;
+	top:-6px;
+	right:40px;
+ 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+	height: 22px;
+	width: 31px;
+    background: url(../../images/arw-nxt.html) center top no-repeat ;  background-position:9px;
+	position:absolute;
+	top:-6px;
+	right:8px;
+ 
+}
+ 
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.html) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+
+#owl-demo .item{
+        padding: 0px;
+        color: #FFF;
+    }
+ 
+ #owl-demo2 .item{
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.customNavigation{
+  text-align: center;
+}
+ 
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ 
+#owl-demo4.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -39px;
+  top: 10px; 
+  background:none;
+}
+ 
+#owl-demo4.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -39px;
+  top: 10px; 
+  background:none;
+}
+
+ 
+ 
+ 
